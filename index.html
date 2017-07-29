@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--<meta charset="utf-8"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class ="container-fluid">
+
+ <div class="row">
+  <div class="col-md-12 text-center">
+    <a class="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a Random Wikipedia Article</a>
+    <BR>
+    <!--onSubmit="return false;" prevents from entire page reloading when submit button or enter is pressed-->
+    <form class="form-inline justify-content-center" onSubmit="return false;">
+      <input type="search" class="form-control text-center mb-0 mr-sm-2 mb-sm-0" id="searchrequest">
+
+      <button class="btn btn-primary" id="searchbutton">Search</button>
+    </form>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12" id="wikiresults">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center" id="info">
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

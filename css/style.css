@@ -1,0 +1,35 @@
+body{
+  margin-top:100px;
+  background-color:black;
+  margin-bottom:2em;
+}
+#info{
+  font-size: .75em;
+  color: #878b91;
+  margin-top:.5em;
+}
+.random{
+  color: white;
+  padding-bottom:2em;
+  padding-top:2em;
+  margin-bottom:3em;
+}
+
+.random:hover,.random:focus{
+  color:white;
+  text-decoration:none;
+}
+
+.form-inline{
+  margin-top:.5em;
+}
+
+/* will not work without specificity review !!*/
+#wikiresults .linking:hover{
+  
+ box-shadow: 5px 5px 2px #ffffff;
+}
+
+a:hover,a:focus{
+  text-decoration:none;
+}
